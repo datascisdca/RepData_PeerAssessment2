@@ -6,7 +6,7 @@ output:
 
 ==========================================  
 Reproducible Research: Peer Assessment 2  
-by Gao, G. (2016-01-26)  
+by Gao, G. (2016-01-28)  
 ==========================================  
 
 ## Impact of Severe Weather Events on Public Health and Economy in the U.S.
@@ -21,9 +21,9 @@ The goal of this report is to analyze the impact of different weather events on 
 ```{r}
 echo = TRUE  
 library(R.utils)
+library(gridExtra)
 library(ggplot2)
 library(plyr)
-require(gridExtra)
 ```
 
 ### Data Processing  

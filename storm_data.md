@@ -1,7 +1,7 @@
 
 ==========================================  
 Reproducible Research: Peer Assessment 2  
-by Gao, G. (2016-01-26)  
+by Gao, G. (2016-01-28)  
 ==========================================  
 
 ## Impact of Severe Weather Events on Public Health and Economy in the U.S.
@@ -86,6 +86,14 @@ library(R.utils)
 ```
 
 ```r
+library(gridExtra)
+```
+
+```
+## Warning: package 'gridExtra' was built under R version 3.2.3
+```
+
+```r
 library(ggplot2)
 ```
 
@@ -95,15 +103,6 @@ library(ggplot2)
 
 ```r
 library(plyr)
-require(gridExtra)
-```
-
-```
-## Loading required package: gridExtra
-```
-
-```
-## Warning: package 'gridExtra' was built under R version 3.2.3
 ```
 
 ### Data Processing  
